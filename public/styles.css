@@ -1,0 +1,17 @@
+/* NavigationBar Component CSS Properties*/
+.companyName{
+    font-family: 'Antic Didone', serif;
+}
+.navigationText, .companyName{
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+.navigationBackground{
+    background-color: #1b262c;
+}
+.loginButton{
+    padding-right: 25px;
+}
+.divider,.supportButton{
+    padding-right: 10px;
+}
