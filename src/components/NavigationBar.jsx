@@ -4,7 +4,7 @@ function NavigationBar(){
     return(
         <div>
             <nav class="navbar navbar-expand-lg navigationBackground">
-                <a class="navbar-brand companyName" href="#">Night Hawks</a>
+                <a class="navbar-brand companyName" href="#">Eagles</a>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
