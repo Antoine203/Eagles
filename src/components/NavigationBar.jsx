@@ -12,12 +12,10 @@ function NavigationBar(){
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle navigationText" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Services
+                            Product
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item navigationText" href="#">Home Systems</a>
-                                <a class="dropdown-item navigationText" href="#">Guard Detail</a>
-                                <a class="dropdown-item navigationText" href="#">Transporting Goods</a>
+                                <a class="dropdown-item navigationText" href="#productSection">Home Systems</a>
                             </div>
                         </li>
                         

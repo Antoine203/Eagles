@@ -19,27 +19,16 @@
     background-size: cover;
     background-color: #000000;
 }
-.imageSection{
-    height: 500px;
-}
-.Guard{
-    background-image: url("./images/Guard.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 900px;
-    width: 100%;
-}
+
+/* HEADER SECTION */
 .Globe{
     background-image: url("./images/Global.jpeg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 900px;
+    height: 700px;
 }
-/* img{
-    max-width: 100%;
-    max-height: 100%;
-    display: block;
-} */
+
 .messageSection{
     font-family: 'PT Serif', serif;
     padding-left: 8%;
@@ -51,11 +40,77 @@
     opacity: 0.8;
     font-family: 'Open Sans', sans-serif;
 }
+
+/* END OF HEADER SECTION */
+
+/* PRODUCTS SECTION */
+.productsSection{
+    background-color: #323232;
+    padding-bottom: 40px;
+    padding-top:40px;
+}
+.cards{
+    padding-top: 10px;
+}
+.cardBody{
+    background-color: #393e46;
+    color: white;
+}
+.card1{
+    margin-right: 10px;
+}
+.middleCardImg{
+    padding-bottom: 20.5px;
+}
+
+/* END OF PRODUCT SECTION */
+
+
+/* BREAK POINTS */
+@media screen and (max-width: 800px){
+    .footerContainer{
+        padding-left: 25%;
+    }
+    .productsTitle{
+        padding-left:35%;
+    }
+    .card1{
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 900px){
+    .footerContainer{
+        padding-left: 35%;
+    }
+    
+}
+@media screen and (max-width: 2000px){
+    .footerContainer{
+        padding-left: 43%;
+    }
+    .productsTitle{
+        padding-left:39%;
+    }
+}
+@media screen and (max-width: 3000px){
+    .productsTitle{
+        padding-left:41%;
+    }
+}
+@media screen and (max-width: 4000px){
+    .productsTitle{
+        padding-left:41%;
+    }
+}
+
+/* END OF BREAK POINTS */
+
+/* FOOTER SECTION */
 .footer{
     text-align: left;
-    padding-left: 43%;
     padding-top: 30px;
-    padding-right:35%;
     font-family: 'Antic Didone', serif;
 }
+
+/* END OF FOOTER SECTION */
 
