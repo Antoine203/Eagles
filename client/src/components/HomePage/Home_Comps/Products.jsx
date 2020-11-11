@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 function Products(){
     return(
@@ -11,7 +12,7 @@ function Products(){
                             <div class="card-body cardBody">
                                 <h5 class="card-title">Alarm System</h5>
                                 <p class="card-text">Protect your loveed ones with our home alarm system.</p>
-                                <a href="#" class="btn btn-primary">Learn More</a>
+                                <Link to="/products" class="btn btn-primary">Learn More</Link>
                             </div>
                         </div>
 
@@ -20,7 +21,7 @@ function Products(){
                             <div class="card-body cardBody">
                                 <h5 class="card-title">Smart System</h5>
                                 <p class="card-text">Escalate your home with our state-of-the-art smart home system.</p>
-                                <a href="#" class="btn btn-primary">Learn More</a>
+                                <Link to="/products" class="btn btn-primary">Learn More</Link>
                             </div>
                         </div>
                     </div>
