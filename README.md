@@ -3,13 +3,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the backend directory, run:
 
 ### `npm start`
 
 Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
+Open [http://localhost:3000](http://localhost:3000) to view the frontend in the browser.
+Also you can open [http://localhost:4000] to view the running backend in the browser
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
@@ -68,6 +68,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 =======
-# Night-Hawks
+# Eagles
 Security web application.
 >>>>>>> 14e3cdd68f79b2a74da31291e0a0bf2d5f954b57
